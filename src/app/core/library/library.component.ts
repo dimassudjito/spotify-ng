@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Collection } from 'src/app/models/collection.models';
+import { LibraryService } from 'src/app/services/library.service';
 
 @Component({
   selector: 'app-library',
@@ -6,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./library.component.scss']
 })
 export class LibraryComponent implements OnInit {
+  library: Collection[] = this.libraryService.getLibrary();
 
-  constructor() { }
+  constructor(private libraryService: LibraryService) { }
 
   ngOnInit(): void {
   }
