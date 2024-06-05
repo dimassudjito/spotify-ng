@@ -13,7 +13,8 @@ import { PlayerComponent } from './core/player/player.component';
 import { MatCardModule } from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
-
+import {MatButtonModule} from '@angular/material/button';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,9 @@ import {MatIconModule} from '@angular/material/icon';
     BrowserAnimationsModule,
     MatCardModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
