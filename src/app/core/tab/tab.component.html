@@ -1,1 +1,12 @@
-<p>tab works!</p>
+<mat-card>
+    <mat-nav-list>
+        <a [routerLink]="['/']">
+                <mat-icon aria-hidden="false" aria-label="Home Icon" matListIcon>home</mat-icon>
+                <p>Home</p>
+        </a>
+        <a [routerLink]="['/search']">
+            <mat-icon aria-hidden="false" aria-label="Search Icon" matListIcon>search</mat-icon>
+            <p>Search</p>
+        </a>
+    </mat-nav-list>
+</mat-card>

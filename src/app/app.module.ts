@@ -10,6 +10,11 @@ import { TabComponent } from './core/tab/tab.component';
 import { LibraryComponent } from './core/library/library.component';
 import { PlayerComponent } from './core/player/player.component';
 
+import { MatCardModule } from '@angular/material/card';
+import {MatListModule} from '@angular/material/list';
+import {MatIconModule} from '@angular/material/icon';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +27,10 @@ import { PlayerComponent } from './core/player/player.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatListModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
