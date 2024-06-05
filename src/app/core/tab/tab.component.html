@@ -1,12 +1,14 @@
 <mat-card>
-    <mat-nav-list>
-        <a [routerLink]="['/']">
-                <mat-icon aria-hidden="false" aria-label="Home Icon" matListIcon>home</mat-icon>
-                <p>Home</p>
+    <div>
+        <a mat-button [routerLink]="['/']">
+            <mat-icon aria-hidden="false" aria-label="Home Icon">home</mat-icon>
+            <span>Home</span>
         </a>
-        <a [routerLink]="['/search']">
-            <mat-icon aria-hidden="false" aria-label="Search Icon" matListIcon>search</mat-icon>
-            <p>Search</p>
+    </div>
+    <div>
+        <a mat-button [routerLink]="['/search']">
+            <mat-icon aria-hidden="false" aria-label="Search Icon">search</mat-icon>
+            <span>Search</span>
         </a>
-    </mat-nav-list>
+    </div>
 </mat-card>
