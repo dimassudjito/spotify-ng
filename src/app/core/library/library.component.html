@@ -1,7 +1,7 @@
 <mat-card>
     <button mat-button>
         <mat-icon aria-hidden="false" aria-label="Library Icon">layers</mat-icon>
-        <span>Library</span>
+        <span>Your Library</span>
     </button>
     <button mat-icon-button>
         <mat-icon aria-hidden="false" aria-label="Create Playlist Icon">add</mat-icon>
@@ -23,6 +23,7 @@
     </button>
     <mat-list>
         <mat-list-item *ngFor="let collection of library">
+            <img matListAvatar src="{{ collection.image }}" alt="{{ collection.name }}">
             <span>{{ collection.name }}</span>
         </mat-list-item>
     </mat-list>

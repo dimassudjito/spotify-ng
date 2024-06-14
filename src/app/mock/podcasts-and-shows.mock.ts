@@ -4,16 +4,16 @@ export const PODCAST_AND_SHOWS: Collection[] = [
     {
         "id": "1",
         "name": "Podcast 1",
-        "image": "https://via.placeholder.com/157",
+        "image": "https://picsum.photos/id/257/200/300",
     },
     {
         "id": "2",
         "name": "Shows 1",
-        "image": "https://via.placeholder.com/158",
+        "image": "https://picsum.photos/id/242/200/300",
     },
     {
         "id": "3",
         "name": "Podcast 2",
-        "image": "https://via.placeholder.com/159",
+        "image": "https://picsum.photos/id/247/200/300",
     },
 ]
