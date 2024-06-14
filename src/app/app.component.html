@@ -1,4 +1,14 @@
-<app-tab></app-tab>
-<app-library></app-library>
-<app-player></app-player>
-<router-outlet></router-outlet>
+<mat-grid-list cols="5" rowHeight="10em">
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <app-tab></app-tab>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="4" [rowspan]="6">
+        <router-outlet></router-outlet>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="5">
+        <app-library></app-library>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="5" [rowspan]="1">
+        <app-player></app-player>
+    </mat-grid-tile>
+  </mat-grid-list>
