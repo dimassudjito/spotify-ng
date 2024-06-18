@@ -1,4 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* Color Constants */
+$black-color: #000000;
+$dark-gray-color: #121212;
+$white-color: #FFFFFF;
+
+/* Global Styles */
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Global classes */
+.dashboard-tile {
+    background-color: $dark-gray-color;
+    border-radius: 10px;
+}
+.white {
+    color: $white-color;
+}
