@@ -1,14 +1,22 @@
-<mat-grid-list cols="5" rowHeight="10em" gutterSize="5">
-    <mat-grid-tile class="mat-elevation-z4 dashboard-tile" [colspan]="1" [rowspan]="1">
-        <app-tab></app-tab>
-    </mat-grid-tile>
-    <mat-grid-tile class="mat-elevation-z4 dashboard-tile" [colspan]="4" [rowspan]="6">
-        <router-outlet></router-outlet>
-    </mat-grid-tile>
-    <mat-grid-tile class="mat-elevation-z4 dashboard-tile" [colspan]="1" [rowspan]="5">
-        <app-library></app-library>
-    </mat-grid-tile>
-    <mat-grid-tile class="mat-elevation-z4 dashboard-tile" [colspan]="5" [rowspan]="1">
-        <app-player></app-player>
-    </mat-grid-tile>
-  </mat-grid-list>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            <div class="dashboard-tile">
+                <app-tab></app-tab>
+            </div>
+            <div class="dashboard-tile">
+                <app-library></app-library>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="dashboard-tile">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="dashboard-tile">
+            <app-player></app-player>
+        </div>        
+    </div>
+</div>
