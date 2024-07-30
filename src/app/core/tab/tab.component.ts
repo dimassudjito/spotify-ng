@@ -12,4 +12,8 @@ export class TabComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  isHomeActive(): boolean {
+    return !window.location.href.includes('search')
+  }
+
 }

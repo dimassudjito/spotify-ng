@@ -1,12 +1,12 @@
 <div class="container py-2">
     <div>
-        <a mat-button [routerLink]="['/']" class="text-white">
+        <a mat-button [routerLink]="['/']" [class]="isHomeActive() ? 'text-white' : 'text-white-50'">
             <mat-icon aria-hidden="false" aria-label="Home Icon" class="me-3 title-icon">home</mat-icon>
             <span class="fs-6">Home</span>
         </a>
     </div>
     <div class="mt-2">
-        <a mat-button [routerLink]="['/search']" class="text-white">
+        <a mat-button [routerLink]="['/search']" [class]="!isHomeActive() ? 'text-white' : 'text-white-50'">
             <mat-icon aria-hidden="false" aria-label="Search Icon" class="me-3 title-icon">search</mat-icon>
             <span class="fs-6">Search</span>
         </a>
