@@ -1,20 +1,20 @@
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-2">
+<div class="container-fluid px-2">
+    <div class="row gx-2 my-2">
+        <div class="col-3">
             <div class="dashboard-tile">
                 <app-tab></app-tab>
             </div>
-            <div class="dashboard-tile">
+            <div class="dashboard-tile my-2">
                 <app-library></app-library>
             </div>
         </div>
-        <div class="col-10">
+        <div class="col-9">
             <div class="dashboard-tile">
                 <router-outlet></router-outlet>
             </div>
         </div>
     </div>
 </div>
-<footer class="fixed-bottom dashboard-tile">
+<footer class="fixed-bottom dashboard-tile m-2">
         <app-player></app-player>
 </footer>
