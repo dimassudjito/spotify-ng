@@ -21,12 +21,21 @@
         </button>
     </div>
 </div>
-<div>
+<div class="px-4">
     <mat-chip-list>
-        <mat-chip>All</mat-chip>
-        <mat-chip>Music</mat-chip>
-        <mat-chip>Podcasts</mat-chip>
-        <mat-chip>Audiobooks</mat-chip>
+        <mat-chip
+            *ngFor="let subpage of subpages"
+            [selected]="subpage.selected"
+            (click)="selectSubpage(subpage.name)"
+        >
+            {{ subpage.name }}
+        </mat-chip>
     </mat-chip-list>
+</div>
+<div>
+    <div *ngIf="selectedSubpage === getHomeSubpage().ALL" class="text-white">All page</div>
+    <div *ngIf="selectedSubpage === getHomeSubpage().MUSIC" class="text-white">Music page</div>
+    <div *ngIf="selectedSubpage === getHomeSubpage().PODCASTS" class="text-white">Podcasts page</div>
+    <div *ngIf="selectedSubpage === getHomeSubpage().AUDIOBOOKS" class="text-white">Audiobooks page</div>
 </div>
 
