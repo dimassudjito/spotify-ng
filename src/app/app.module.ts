@@ -17,6 +17,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { CoverComponent } from './home/cover/cover.component';
+import { CoverListComponent } from './home/cover-list/cover-list.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { MatGridListModule } from '@angular/material/grid-list';
     SearchComponent,
     TabComponent,
     LibraryComponent,
-    PlayerComponent
+    PlayerComponent,
+    CoverComponent,
+    CoverListComponent
   ],
   imports: [
     BrowserModule,
