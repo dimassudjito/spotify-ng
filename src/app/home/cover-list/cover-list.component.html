@@ -1,1 +1,10 @@
-<p>cover-list works!</p>
+<div class="text-white">
+    <div class="d-flex justify-content-between">
+        <p class="h3">Heading</p>
+        <p class="text-white-50">Show all</p>
+    </div>
+    <div class="d-flex justify-content-between">
+        <app-cover *ngFor="let content of [1, 2, 3, 4, 5]"></app-cover>
+    </div>
+</div>
+

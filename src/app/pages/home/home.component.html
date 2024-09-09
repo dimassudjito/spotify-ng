@@ -38,7 +38,7 @@
     <div *ngIf="selectedSubpage === getHomeSubpage().PODCASTS" class="text-white">Podcasts page</div>
     <div *ngIf="selectedSubpage === getHomeSubpage().AUDIOBOOKS" class="text-white">Audiobooks page</div>
 </div>
-<div>
-    <app-cover></app-cover>
+<div class="container">
+    <app-cover-list *ngFor="let coverList of [1, 2, 3, 4, 5]"></app-cover-list>
 </div>
 
