@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-cover',
@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cover.component.scss']
 })
 export class CoverComponent implements OnInit {
+  @Input() roundCover: boolean = false;
+  @Input() coverTitle: string = '';
+  @Input() coverSubtitle!: string;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  getCoverImageClass(): string {
+    return this.roundCover ? 'cover-image-round' : 'cover-image';
   }
 
 }
