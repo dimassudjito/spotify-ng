@@ -1,5 +1,6 @@
 export interface Collection {
     id: string;
-    name: string;
+    name?: string;
     image: string;
+    owner: string;
 }

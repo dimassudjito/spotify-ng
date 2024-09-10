@@ -1,64 +1,64 @@
 import { Collection } from "../models/collection.models";
 
-export const ALBUMS: Collection[] = [
+export const DAILY_MIX: Collection[] = [
     {
-        id: 'album1',
-        name: 'Thriller',
+        id: 'mix1',
+        name: 'Morning Motivation',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Michael Jackson'
+        owner: 'Music Curator'
     },
     {
-        id: 'album2',
-        name: 'Back in Black',
+        id: 'mix2',
+        name: 'Afternoon Relaxation',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'AC/DC'
+        owner: 'Mood Maker'
     },
     {
-        id: 'album3',
-        name: 'Abbey Road',
+        id: 'mix3',
+        name: 'Evening Wind Down',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'The Beatles'
+        owner: 'Relaxation Expert'
     },
     {
-        id: 'album4',
-        name: 'The Dark Side of the Moon',
+        id: 'mix4',
+        name: 'Work Focus',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Pink Floyd'
+        owner: 'Productivity Coach'
     },
     {
-        id: 'album5',
-        name: 'Rumours',
+        id: 'mix5',
+        name: 'Dinner Party',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Fleetwood Mac'
+        owner: 'Host'
     },
     {
-        id: 'album6',
-        name: 'Born to Run',
+        id: 'mix6',
+        name: 'Late Night Chill',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Bruce Springsteen'
+        owner: 'Chill Master'
     },
     {
-        id: 'album7',
-        name: 'Hotel California',
+        id: 'mix7',
+        name: 'Workout Boost',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Eagles'
+        owner: 'Fitness Fanatic'
     },
     {
-        id: 'album8',
-        name: 'Lemonade',
+        id: 'mix8',
+        name: 'Weekend Vibes',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Beyoncé'
+        owner: 'Weekend Warrior'
     },
     {
-        id: 'album9',
-        name: 'A Night at the Opera',
+        id: 'mix9',
+        name: 'Road Trip',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Queen'
+        owner: 'Adventure Seeker'
     },
     {
-        id: 'album10',
-        name: '21',
+        id: 'mix10',
+        name: 'Rainy Day',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Adele'
+        owner: 'Cozy Creator'
     }
 ]

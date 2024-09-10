@@ -1,64 +1,64 @@
 import { Collection } from "../models/collection.models";
 
-export const ALBUMS: Collection[] = [
+export const AUDIOBOOKS: Collection[] = [
     {
-        id: 'album1',
-        name: 'Thriller',
+        id: 'audiobook1',
+        name: 'The Silent Patient',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Michael Jackson'
+        owner: 'Alex Michaelides'
     },
     {
-        id: 'album2',
-        name: 'Back in Black',
+        id: 'audiobook2',
+        name: 'Where the Crawdads Sing',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'AC/DC'
+        owner: 'Delia Owens'
     },
     {
-        id: 'album3',
-        name: 'Abbey Road',
+        id: 'audiobook3',
+        name: 'The Midnight Library',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'The Beatles'
+        owner: 'Matt Haig'
     },
     {
-        id: 'album4',
-        name: 'The Dark Side of the Moon',
+        id: 'audiobook4',
+        name: 'Educated',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Pink Floyd'
+        owner: 'Tara Westover'
     },
     {
-        id: 'album5',
-        name: 'Rumours',
+        id: 'audiobook5',
+        name: 'Becoming',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Fleetwood Mac'
+        owner: 'Michelle Obama'
     },
     {
-        id: 'album6',
-        name: 'Born to Run',
+        id: 'audiobook6',
+        name: 'The Goldfinch',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Bruce Springsteen'
+        owner: 'Donna Tartt'
     },
     {
-        id: 'album7',
-        name: 'Hotel California',
+        id: 'audiobook7',
+        name: 'Big Little Lies',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Eagles'
+        owner: 'Liane Moriarty'
     },
     {
-        id: 'album8',
-        name: 'Lemonade',
+        id: 'audiobook8',
+        name: 'The Da Vinci Code',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Beyoncé'
+        owner: 'Dan Brown'
     },
     {
-        id: 'album9',
-        name: 'A Night at the Opera',
+        id: 'audiobook9',
+        name: 'A Game of Thrones',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Queen'
+        owner: 'George R.R. Martin'
     },
     {
-        id: 'album10',
-        name: '21',
+        id: 'audiobook10',
+        name: 'The Hobbit',
         image: 'https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format',
-        owner: 'Adele'
+        owner: 'J.R.R. Tolkien'
     }
 ]

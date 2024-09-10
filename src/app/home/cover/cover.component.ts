@@ -9,6 +9,7 @@ export class CoverComponent implements OnInit {
   @Input() roundCover: boolean = false;
   @Input() coverTitle: string = '';
   @Input() coverSubtitle!: string;
+  @Input() coverImage!: string;
 
   constructor() { }
 
